@@ -1,0 +1,24 @@
+{
+  "name": "roll",
+  "version": "1.0.0",
+  "description": "Для работы приложения необходимо подключить сторонние модули:\r ```bash\r $ npm install\r ```\r Не забудь подключиться к монго. База данных называется 'asbenta', порт 27017. Коллекции 'users' и 'todos'",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "koa": "^2.5.0",
+    "koa-body-parser": "^1.1.2",
+    "koa-bodyparser": "^4.2.0",
+    "koa-json-logger": "^1.0.2",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2",
+    "mongoose": "^5.0.5",
+    "pg": "^7.4.1"
+  }
+}
